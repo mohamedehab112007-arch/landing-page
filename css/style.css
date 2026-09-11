@@ -1,0 +1,15 @@
+.first_qaurter
+{
+ display:flex ;
+ flex-direction: column;
+}
+.header
+{
+ display: flex;
+ flex-flow: row nowrap;
+}
+.logo
+{
+    font-weight:500;
+    justify-self: flex-start;
+}
