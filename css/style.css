@@ -50,6 +50,10 @@ a{
     margin-top: 20px;
     column-gap: 170px;
 }
+.image
+{
+    justify-content: flex-end;
+}
 .title , .main_body_title
 {
     font-weight: 900;
