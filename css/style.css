@@ -88,3 +88,18 @@ flex-flow:row wrap;
  margin-left: 60px;
  margin-right: 60px;
 }
+.third_part
+{
+    display: flex;
+
+}
+.quote
+{
+    box-sizing: border-box;
+    margin-top: 70px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color:#a83da8 ;
+    padding: 80px;
+    color: #1a0b5e;
+}
