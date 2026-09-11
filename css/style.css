@@ -7,6 +7,7 @@ html
     background-color:#260e91;
     color:#F76F6D ;
     font-family: pixelart;
+    flex:1 1 auto;
    
 }
 .page_container
