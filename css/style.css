@@ -113,8 +113,13 @@ flex-flow:row wrap;
 
 }
 .fourth_part
-{
+{ 
+    font-weight: bolder;
+    font-size: larger;
+    margin: 60px;
+    justify-content: center;
     display: flex;
+    column-gap: 20px;
 }
 .sign_up_temtation
 {
@@ -123,5 +128,6 @@ flex-flow:row wrap;
 }
 .arrow
 {
+    margin-top: 15px;
     display: flex;
 }
