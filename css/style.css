@@ -51,7 +51,7 @@ a{
     margin-top: 20px;
     column-gap: 170px;
 }
-.title
+.title , .main_body_title
 {
     font-weight: 900;
     font-size: 30px;
@@ -62,4 +62,16 @@ a{
     flex-flow: column nowrap;
     width: 230px;
     height: 230px;
+    
+}
+.random_info
+{
+display: flex;
+flex-flow:row nowrap;
+ gap: 40px
+}
+.main_body_title
+{
+    margin-bottom: 30px;
+    justify-self: center;
 }
