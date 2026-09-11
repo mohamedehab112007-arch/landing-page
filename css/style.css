@@ -91,15 +91,24 @@ flex-flow:row wrap;
 .third_part
 {
     display: flex;
+    flex-direction: column;
 
 }
 .quote
 {
+    border-radius: 23px;
     box-sizing: border-box;
     margin-top: 70px;
     margin-left: 60px;
     margin-right: 60px;
     background-color:#a83da8 ;
-    padding: 80px;
+    padding: 60px;
     color: #1a0b5e;
+}
+.name
+{
+    display: flex;
+    margin-top: 23px;
+    justify-content: flex-end;
+
 }
