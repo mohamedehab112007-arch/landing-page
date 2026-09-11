@@ -112,3 +112,16 @@ flex-flow:row wrap;
     justify-content: flex-end;
 
 }
+.fourth_part
+{
+    display: flex;
+}
+.sign_up_temtation
+{
+    display: flex;
+    flex-direction: column;
+}
+.arrow
+{
+    display: flex;
+}
