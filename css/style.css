@@ -1,14 +1,20 @@
-
+@font-face {
+    font-family: pixelart;
+    src: url(../fonts/Pixelify_Sans/static/PixelifySans-Regular.ttf);
+}
 html
 {
     background-color:#260e91;
     color:#F76F6D ;
+    font-family: pixelart;
    
 }
 .first_qaurter
 {
  display:flex ;
  flex-direction: column;
+ margin-left: 60px;
+ margin-right: 60px;
  
 }
 .header
@@ -38,4 +44,9 @@ a{
     flex-flow: row nowrap;
     margin-top: 20px;
     column-gap: 170px;
+}
+.title
+{
+    font-weight: 900;
+    font-size: 30px;
 }
