@@ -1,15 +1,41 @@
+
+html
+{
+    background-color:#260e91;
+    color:#F76F6D ;
+   
+}
 .first_qaurter
 {
  display:flex ;
  flex-direction: column;
+ 
 }
 .header
 {
  display: flex;
  flex-flow: row nowrap;
+ justify-content: space-between;
 }
 .logo
 {
-    font-weight:500;
-    justify-self: flex-start;
+    font-weight:bold;
+ 
+}
+.links
+{
+  display: flex;
+
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(218, 11, 236);
+}
+.info
+{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 20px;
+    column-gap: 170px;
 }
