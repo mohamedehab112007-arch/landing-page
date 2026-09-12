@@ -21,6 +21,7 @@ html
  flex-direction: column;
   padding-left: 60px;
     padding-right: 60px;
+    flex-wrap: nowrap;
  
 }
 .header
@@ -50,11 +51,14 @@ a{
     flex-flow: row nowrap;
     margin-top: 20px;
     column-gap: 170px;
+    justify-content: space-between;
 }
 .image
 {
+    display: flex;
     justify-content: flex-end;
 }
+
 .title , .main_body_title
 {
     font-weight: 900;
